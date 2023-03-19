@@ -1,0 +1,129 @@
+body{
+    font-family: 'pt sans',sans-serif;
+    background: rgb(0, 56, 56);
+    margin: 0;
+    color: #ffff;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#showcase{
+    margin: 0;padding: 0;
+    background: url('jjhj.jpg') no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+#showcase .container{
+    margin-top: 220px;
+}
+#showcase h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+#showcase h2{
+    font-size: 2rem;
+}
+nav{
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(.1deg,rgb(0, 0, 0),rgb(3, 97, 0));
+    color: rgb(51, 34,34);
+    position: fixed;
+}
+nav ul{
+    margin: 0;padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding:  10px 0;
+    color: #eee;
+}
+nav li:hover{
+    background-color: #444;
+}
+.container{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+.lead{
+    font-size: 1.3rem;
+}
+footer .footer-col{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+}
+footer .footer-col ul{
+    list-style: none;
+}
+footer .footer-col ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: rgb(255, 255, 255) solid 1px;
+} 
+footer .footer-bottom{
+    background-color: #000000;
+    padding: 1rem;
+    text-align: center;
+}
+.section{
+    padding: 2rem 0;
+}
+.section-head{
+    font-size: 2.5rem;
+    margin: 0;
+}
+.section h3{
+    font-size: 2rem;
+}
+:root{
+    ---primary-color:#b90415;
+    ---primary-color-hover:#a17206;
+    ---secondary-color:#103063;
+    ---secondary-color-hover:#180daa;
+    ---light-color:#f4f4f4;
+}
+.btn{
+    padding: 1rem;
+    color:#ffff;
+    display: inline-block;
+}
+.btn-primary{
+    background: var(---primary-color);
+    border-radius: 50px;
+}
+.btn-primary:hover{
+    background: var(---primary-color-hover);
+}
+.btn-secondary{
+    background: var(---secondary-color);
+    border-radius: 40px;
+}
+.btn-secondary:hover{
+    background: var(---secondary-color-hover);
+}
+.text-light{
+    color:var( ---light-color);
+}
+.mb{
+    margin-bottom: 1rem;
+}
+.mt{
+    margin-top: 1rem;
+}
